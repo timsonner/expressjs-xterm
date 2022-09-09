@@ -22,7 +22,8 @@ Open http://localhost:3000/ in the browser.
 The WebSocket port number is hard coded thus `6060`. Feel free to change it in `server.js`
 Also, don't forget to update the WebSocket URL in `index.js` after.
 
-There is also a [complete tutorial](https://www.eddymens.com/blog/creating-a-browser-based-interactive-terminal-using-xtermjs-and-nodejs) detailing how different parts of the code work.
+There is also a complete tutorial  detailing how different parts of the code work.  
+https://www.eddymens.com/blog/creating-a-browser-based-interactive-terminal-using-xtermjs-and-nodejs
 
 
 ## TODO:

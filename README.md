@@ -1,5 +1,8 @@
 # Interactive web-based terminal
 
+## Based on a project by EddyMens
+https://github.com/EDDYMENS/interactive-terminal
+
 ## Requirements:
 - NodeJS >= v16 and NPM
 
@@ -8,18 +11,21 @@ There are two parts to this, the frontend and backend, just like a typical web a
 
 To get the backend running use the following steps:
 
-- `cd` into the directory.
+- `cd` into the project directory.
 - Run `npm install` to pull in dependencies.
-- Run `node backend.js` to start the WebSocket the frontend will be connecting to.
+- Run `node server.js` to start the WebSocket the frontend will be connecting to.
+alernatively:
+- Run `nodemon server.js`
 
-There is not much to do regarding the frontend except to open up `index.html` in the browser.
+Open http://localhost:3000/ in the browser.
 
-The WebSocket port number is hard coded thus `6060`. Feel free to change it in `backend.js`
-Also, don't forget to update the WebSocket URL in `frontend.js` after.
+The WebSocket port number is hard coded thus `6060`. Feel free to change it in `server.js`
+Also, don't forget to update the WebSocket URL in `index.js` after.
 
 There is also a [complete tutorial](https://www.eddymens.com/blog/creating-a-browser-based-interactive-terminal-using-xtermjs-and-nodejs) detailing how different parts of the code work.
 
 
 ## TODO:
-- [] Enable key combo detection.
+- [] Enable key combo detection (ctrl-c,etc)
 - [] Enable arrow key usage.
+- [] Enable tab for autocomplete.
